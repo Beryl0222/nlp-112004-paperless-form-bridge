@@ -1,0 +1,83 @@
+[
+  {
+    "id": "a1",
+    "form": "form-a",
+    "edition": "2026.1",
+    "language": "zh",
+    "clause": "§2",
+    "text": "货主自行申报的，国内货物可不填货主代码。代理申报参见注①；联络栏同样适用注②。",
+    "supersedes": null
+  },
+  {
+    "id": "a2",
+    "form": "form-a",
+    "edition": "2026.1",
+    "language": "zh",
+    "clause": "①",
+    "text": "代办方填写货主代码，不得用代办方代码代替。货主书面证明未获代码的，才由代办方填‘无’。",
+    "supersedes": null
+  },
+  {
+    "id": "a3",
+    "form": "form-a",
+    "edition": "2026.1",
+    "language": "zh",
+    "clause": "②",
+    "text": "货主联络栏由联系人本人填写。联络方式为统一窗口的，填窗口站点；仅联络栏留空。",
+    "supersedes": null
+  },
+  {
+    "id": "a4",
+    "form": "form-a",
+    "edition": "2026.1",
+    "language": "en",
+    "clause": "§2",
+    "text": "For domestic goods, the principal identifier may be left blank. Brokers may provide their own identifier. For the contact section see note B.",
+    "supersedes": null
+  },
+  {
+    "id": "a5",
+    "form": "form-a",
+    "edition": "2026.1",
+    "language": "en",
+    "clause": "B",
+    "text": "Where a shared office handles contact, enter the office code instead of a person's number.",
+    "supersedes": null
+  },
+  {
+    "id": "a6",
+    "form": "form-a",
+    "edition": "2026.2",
+    "language": "zh",
+    "clause": "②",
+    "text": "联系人可允许代办方填写联络栏。统一窗口未启用时，仍由本人填联络方式。",
+    "supersedes": "a3"
+  },
+  {
+    "id": "b1",
+    "form": "form-b",
+    "edition": "1.0",
+    "language": "zh",
+    "clause": "第3节",
+    "text": "货主没有登记号时请填无，货主未回答时暂留空。请区分经办点和联络方式。",
+    "supersedes": null
+  },
+  {
+    "id": "b2",
+    "form": "form-b",
+    "edition": "1.0",
+    "language": "en",
+    "clause": "s.3 & n.2",
+    "text": "Leave Principal ID blank only if no identifier was issued; the clerk may copy a Principal ID from the principal's signed statement, not from a shipping label.",
+    "supersedes": null
+  },
+  {
+    "id": "b3",
+    "form": "form-b",
+    "edition": "1.1",
+    "language": "en",
+    "clause": "s.3",
+    "text": "Retain the explicit declaration of non-registration in the submission record. A blank Principal ID means unanswered.",
+    "supersedes": "b2"
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "d1",
+    "caseId": "C01",
+    "form": "form-a",
+    "actor": "h1",
+    "about": null,
+    "kind": "自述",
+    "text": "国内的，我自己办，联系就填东泠窗口，这回只收工位电话。"
+  },
+  {
+    "id": "d2",
+    "caseId": "C01",
+    "form": "form-a",
+    "actor": "h1",
+    "about": "d1",
+    "kind": "更正",
+    "text": "刚问清，这回请溪浦代办。以前的号码不要了，登记号没有拿到。"
+  },
+  {
+    "id": "d3",
+    "caseId": "C01",
+    "form": "form-a",
+    "actor": "a01",
+    "about": "d2",
+    "kind": "代答",
+    "text": "我的代理登记号是 AH-602，货主没有出具未登记说明。"
+  },
+  {
+    "id": "d4",
+    "caseId": "C01",
+    "form": "form-a",
+    "actor": "h1",
+    "about": "d3",
+    "kind": "书面确认",
+    "text": "我没有取得货主登记号。窗口可以代收，但新的私人联系电话只供我本人填写。"
+  },
+  {
+    "id": "d5",
+    "caseId": "C02",
+    "form": "form-b",
+    "actor": "h2",
+    "about": null,
+    "kind": "自述",
+    "text": "Not registered. The dock desk can tell you about both the office and the contact."
+  },
+  {
+    "id": "d6",
+    "caseId": "C02",
+    "form": "form-b",
+    "actor": "a01",
+    "about": "d5",
+    "kind": "代答",
+    "text": "订单上有 H-61，暂不清楚是船舶号还是货主号。"
+  },
+  {
+    "id": "d7",
+    "caseId": "C03",
+    "form": "form-b",
+    "actor": "h2",
+    "about": null,
+    "kind": "自述",
+    "text": "My registration is H-33 and the office I use is Q-02. I have not replied about Contact yet."
+  }
+]

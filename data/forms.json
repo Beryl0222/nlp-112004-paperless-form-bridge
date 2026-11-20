@@ -1,0 +1,92 @@
+[
+  {
+    "id": "form-a",
+    "partner": "澄港",
+    "format": "JSON 对象",
+    "authority": "zh",
+    "fields": [
+      {
+        "name": "actor",
+        "values": [
+          "SELF",
+          "AGENT"
+        ]
+      },
+      {
+        "name": "ownerCode",
+        "values": [
+          "有效代码",
+          "NONE",
+          "OMIT"
+        ]
+      },
+      {
+        "name": "hub",
+        "values": [
+          "站点代码",
+          "OMIT"
+        ]
+      },
+      {
+        "name": "domestic",
+        "values": [
+          "Y",
+          "N"
+        ]
+      },
+      {
+        "name": "contact",
+        "values": [
+          "自然人的联系方式",
+          "OMIT"
+        ]
+      },
+      {
+        "name": "line",
+        "values": [
+          "原话文本",
+          "OMIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "form-b",
+    "partner": "弦港",
+    "format": "CSV 固定列",
+    "authority": null,
+    "fields": [
+      {
+        "name": "Contact",
+        "values": [
+          "自然人的联系方式",
+          "空串"
+        ],
+        "emptyMeans": "未提供"
+      },
+      {
+        "name": "Domestic",
+        "values": [
+          "Y",
+          "N"
+        ]
+      },
+      {
+        "name": "Principal ID",
+        "values": [
+          "有效代码",
+          "空串"
+        ],
+        "emptyMeans": "未提供"
+      },
+      {
+        "name": "Office",
+        "values": [
+          "站点代码",
+          "空串"
+        ],
+        "emptyMeans": "不适用"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "r1",
+    "caseId": "C01",
+    "form": "form-a",
+    "edition": "2026.1",
+    "sentAt": "2026-11-19T08:00:00+08:00",
+    "drafts": [
+      "d1"
+    ],
+    "payloadText": "{\"actor\":\"SELF\",\"domestic\":\"Y\",\"hub\":\"E-07\"}",
+    "viewText": "本人申报，货主代码按该版说明无需填。"
+  },
+  {
+    "id": "r2",
+    "caseId": "C03",
+    "form": "form-b",
+    "edition": "1.0",
+    "sentAt": "2026-11-19T11:15:00+08:00",
+    "drafts": [
+      "d7"
+    ],
+    "payloadText": ",Y,H-33,Q-02",
+    "viewText": "联络栏未答，经办点 Q-02。"
+  }
+]

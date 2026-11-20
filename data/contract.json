@@ -1,0 +1,67 @@
+{
+  "forms": {
+    "columns": {
+      "id": "string",
+      "partner": "string",
+      "format": "string",
+      "authority": "string?",
+      "fields": "array"
+    },
+    "links": {}
+  },
+  "instructions": {
+    "columns": {
+      "id": "string",
+      "form": "string",
+      "edition": "string",
+      "language": "string",
+      "clause": "string",
+      "text": "string",
+      "supersedes": "string?"
+    },
+    "links": {
+      "form": "forms",
+      "supersedes": "instructions"
+    }
+  },
+  "participants": {
+    "columns": {
+      "id": "string",
+      "label": "string",
+      "roles": "array"
+    },
+    "links": {}
+  },
+  "drafts": {
+    "columns": {
+      "id": "string",
+      "caseId": "string",
+      "form": "string",
+      "actor": "string",
+      "about": "string?",
+      "kind": "string",
+      "text": "string"
+    },
+    "links": {
+      "form": "forms",
+      "actor": "participants",
+      "about": "drafts"
+    }
+  },
+  "receipts": {
+    "columns": {
+      "id": "string",
+      "caseId": "string",
+      "form": "string",
+      "edition": "string",
+      "sentAt": "string",
+      "drafts": "array",
+      "payloadText": "string",
+      "viewText": "string"
+    },
+    "links": {
+      "form": "forms",
+      "drafts": "drafts"
+    }
+  }
+}
